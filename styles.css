@@ -215,6 +215,11 @@ span {
     margin-bottom: 10rem;
 }
 
+.more-text {
+    display: none; 
+    color: var(--text-color);
+}
+
 .services {
     background: var(--snd-bg-color);
 }
