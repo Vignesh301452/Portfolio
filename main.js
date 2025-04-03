@@ -52,7 +52,7 @@ ScrollReveal().reveal('.projects-box,', { origin: 'buttom' });
 ScrollReveal().reveal('.home-content, .services-container, .project-container', { origin: 'left' });
 ScrollReveal().reveal('.skills-content, .skills-row, .contact-container, .about-content', { origin: 'right' });
 
-/=========================== scroll reveal ===========================/
+/=========================== home animation ===========================/
 const typed = new Typed('.multiple-text', {
     strings: ['Developer', 'UI/UX Designer'],
     typeSpeed: 70,
@@ -60,3 +60,13 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true,
 });
+
+/=========================== Read more ===========================/
+function toggleText() {
+    var moreText = document.querySelector('.more-text');
+    if (moreText.style.display === 'none') {
+      moreText.style.display = 'inline';
+    } else {
+      moreText.style.display = 'none';
+    }
+  }
