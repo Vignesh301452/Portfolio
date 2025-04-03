@@ -70,3 +70,8 @@ function toggleText() {
       moreText.style.display = 'none';
     }
   }
+
+/=========================== Contact submitted ===========================/
+function myFunction() {
+    alert("Submitted");
+}
